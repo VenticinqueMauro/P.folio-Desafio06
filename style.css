@@ -9,6 +9,7 @@ body {
     background: rgb(101,143,206);
     background: radial-gradient(circle, rgba(101,143,206,1) 0%, rgba(71,101,145,1) 50%, rgba(39,53,75,1) 75%, rgba(0,0,0,1) 100%);
     font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden;
 }
 
 /* I N D E X */
@@ -129,6 +130,7 @@ body {
 }
 
 .progress{
+    max-width: 320px;
     height: 10px;
     transition: all 300ms;
 }
