@@ -119,15 +119,24 @@ body {
 .Hab{
     width: 50px;
     height: 50px;
+    transition: all 300ms;
 }
 
 .Habc{
     width: 35px;
     height: 50px;
+    transition: all 300ms;
 }
 
 .progress{
     height: 10px;
+    transition: all 300ms;
+}
+
+.progress:hover,
+.Hab:hover,
+.Habc:hover{
+    transform: scale(1.1);
 }
 
 .progress-bar{
@@ -288,9 +297,10 @@ body {
 
 .buttonContact:hover{
     background-color: #000;
-    color: rgb(255, 248, 45);
+    color: #fff82d;
 }
 
 .txtred{
     color: #D4DFEE;
 }
+
