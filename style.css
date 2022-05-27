@@ -196,17 +196,20 @@ body {
 
 .card-title{
     color: #27354B;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .card-text{
     color: #27354B;
+    font-size: 14px;
     font-weight: 400;
 }
 
 
 .btn-primary{
     background-color: #ffff00;
+    font-weight: 500;
     color: #051B3B;
     border: none;
     transition: all 300ms;
