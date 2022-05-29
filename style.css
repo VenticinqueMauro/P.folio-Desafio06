@@ -277,9 +277,14 @@ body {
     margin: 10px;
     font-family: inherit;
     outline: none;
-    border: none;
+    border: 0;
     resize: none;
     transition: all 300ms;
+}
+
+
+.inputMsj{
+    background: #D4DFEE;
 }
 
 
